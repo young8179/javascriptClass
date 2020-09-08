@@ -4,8 +4,8 @@ function printNumber(start, end){
     }
 }
 
-var resultPrintNumber = printNumber(1, 4);
-console.log(resultPrintNumber);
+printNumber(1, 4);
+
 
 console.log("-------------------------------------")
 
@@ -18,6 +18,6 @@ function printNumber2(start, end){
         
     }
 }
-var resultPrintNumber2 = printNumber2(1, 10);
-console.log(resultPrintNumber2);
+printNumber2(1, 10);
+
         

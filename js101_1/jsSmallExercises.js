@@ -1,14 +1,4 @@
-// madlib
 
-function madlib(name, subject){
-    return name + "'s favorite subject in school is " + subject;
-}
-
-var answer = madlib("Anushka", "art");
-console.log(answer);
-
-// ---------------------------------------------------------------
-console.log("----------------------------------------------");
 // Tip calculator
 
 function tipAmount(amount, levelOfService){
@@ -52,6 +42,7 @@ console.log(result2);
 console.log("---------------------------");
 
 function splitAmount1(bill, service, numPpl){
+    
     if (service == "good"){
         let a = (bill + (bill * 0.2)) / numPpl;
         console.log(a);
