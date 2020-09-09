@@ -20,4 +20,4 @@ function printNumber2(start, end){
 }
 printNumber2(1, 10);
 
-        
+
